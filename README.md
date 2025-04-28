@@ -52,9 +52,8 @@ The framework will involve:
 - `scipy`
 - `pandas`
 - `matplotlib`
-- `seaborn`
 - `statsmodels`
-- `tick` (for Hawkes process modeling)
+- `hawkes` (for Hawkes process modeling)
 
 ## References
 
