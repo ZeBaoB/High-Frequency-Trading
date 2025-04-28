@@ -60,7 +60,7 @@ The framework will involve:
 - `pandas`
 - `matplotlib`
 - `statsmodels`
-- `hawkes`(for Hawkes process modeling)
+- `hawkes` (for Hawkes process modeling)
 
 ## References
 
