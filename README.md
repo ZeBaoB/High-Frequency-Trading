@@ -24,6 +24,13 @@ The work is structured into several HTML files (exported Jupyter Notebooks), wit
 3. (Optional) If you wish to modify or re-run the analysis:
    - Convert the HTML back to `.ipynb` (e.g., using `jupyter nbconvert`) or use the original notebooks.
 
+## Data
+
+> 📂 **Important**:  
+> The datasets used in this project (Limit Order Book data) are **not published** in the repository due to confidentiality/licensing reasons.  
+> However, the code is written to be **easily adaptable** to any local dataset.  
+> You can replace the data-loading parts with your own files (CSV, database, etc.) with minimal changes.
+
 ## Future Work
 
 - **Model calibration** and **optimal strategy simulations** will be based on:
@@ -53,7 +60,7 @@ The framework will involve:
 - `pandas`
 - `matplotlib`
 - `statsmodels`
-- `hawkes` (for Hawkes process modeling)
+- `hawkes`(for Hawkes process modeling)
 
 ## References
 
@@ -61,3 +68,4 @@ The framework will involve:
 - Cont, R. (2011). *Statistical modeling of high-frequency financial data*.
 - Abergel, F., Chakrabarti, B. K., Chakraborti, A., Muni Toke, I., and Patriarca, M. (2011). *Limit Order Books*.
 - Guilbaud, F., Pham, H. (2013). *Optimal high-frequency trading with limit and market orders*, Quantitative Finance.
+
